@@ -1,0 +1,7 @@
+{
+    "require": {
+        "athlon1600/youtube-downloader": "^4.0",
+      "ext-curl": "*",
+        "norkunas/youtube-dl-php": "^2.8"
+    }
+}

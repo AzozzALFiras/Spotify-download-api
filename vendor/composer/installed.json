@@ -1,0 +1,579 @@
+{
+        "packages": [
+                {
+                        "name": "athlon1600/php-curl-client",
+                        "version": "v1.2.0",
+                        "version_normalized": "1.2.0.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/Athlon1600/php-curl-client.git",
+                                "reference": "eff146de74ee3a4a9a7de1511e300b65b5c8efd2"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/Athlon1600/php-curl-client/zipball/eff146de74ee3a4a9a7de1511e300b65b5c8efd2",
+                                "reference": "eff146de74ee3a4a9a7de1511e300b65b5c8efd2",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "ext-curl": "*",
+                                "ext-json": "*",
+                                "php": "^7.3|^8.0"
+                        },
+                        "require-dev": {
+                                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+                        },
+                        "time": "2023-10-24T23:17:09+00:00",
+                        "type": "library",
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "Curl\\": "src/"
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "description": "Simple PHP cURL Client",
+                        "keywords": [
+                                "php curl client"
+                        ],
+                        "support": {
+                                "issues": "https://github.com/Athlon1600/php-curl-client/issues",
+                                "source": "https://github.com/Athlon1600/php-curl-client/tree/v1.2.0"
+                        },
+                        "install-path": "../athlon1600/php-curl-client"
+                },
+                {
+                        "name": "athlon1600/php-curl-file-downloader",
+                        "version": "v1.0.2",
+                        "version_normalized": "1.0.2.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/Athlon1600/php-curl-file-downloader.git",
+                                "reference": "66391a0b89e2ed8b42ed6341e111f180697e0c5f"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/Athlon1600/php-curl-file-downloader/zipball/66391a0b89e2ed8b42ed6341e111f180697e0c5f",
+                                "reference": "66391a0b89e2ed8b42ed6341e111f180697e0c5f",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "athlon1600/php-curl-client": "^1.0",
+                                "ext-curl": "*"
+                        },
+                        "require-dev": {
+                                "phpunit/phpunit": "^7.0"
+                        },
+                        "time": "2021-02-25T20:29:06+00:00",
+                        "type": "library",
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "CurlDownloader\\": "src/"
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "support": {
+                                "issues": "https://github.com/Athlon1600/php-curl-file-downloader/issues",
+                                "source": "https://github.com/Athlon1600/php-curl-file-downloader/tree/v1.0.2"
+                        },
+                        "install-path": "../athlon1600/php-curl-file-downloader"
+                },
+                {
+                        "name": "athlon1600/youtube-downloader",
+                        "version": "v4.0.0",
+                        "version_normalized": "4.0.0.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/Athlon1600/youtube-downloader.git",
+                                "reference": "3e59fc1be08be1ece9b121ae6b20b2e46b7a9c38"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/Athlon1600/youtube-downloader/zipball/3e59fc1be08be1ece9b121ae6b20b2e46b7a9c38",
+                                "reference": "3e59fc1be08be1ece9b121ae6b20b2e46b7a9c38",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "athlon1600/php-curl-file-downloader": "^1.0",
+                                "ext-curl": "*",
+                                "ext-json": "*",
+                                "php": "^7.4|^8.0"
+                        },
+                        "require-dev": {
+                                "phpunit/phpunit": "^8.0 || ^9.0 || ^10.0"
+                        },
+                        "time": "2023-11-12T21:57:04+00:00",
+                        "type": "library",
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "YouTube\\": "src/"
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "description": "PHP powered alternative for youtube-dl",
+                        "keywords": [
+                                "download youtube",
+                                "download youtube videos",
+                                "youtube downloader"
+                        ],
+                        "support": {
+                                "issues": "https://github.com/Athlon1600/youtube-downloader/issues",
+                                "source": "https://github.com/Athlon1600/youtube-downloader/tree/v4.0.0"
+                        },
+                        "install-path": "../athlon1600/youtube-downloader"
+                },
+                {
+                        "name": "norkunas/youtube-dl-php",
+                        "version": "v2.8.1",
+                        "version_normalized": "2.8.1.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/norkunas/youtube-dl-php.git",
+                                "reference": "2382ef521bbf1a42f9d99e817060485eb4e26adf"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/norkunas/youtube-dl-php/zipball/2382ef521bbf1a42f9d99e817060485eb4e26adf",
+                                "reference": "2382ef521bbf1a42f9d99e817060485eb4e26adf",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "ext-json": "*",
+                                "php": ">=7.4.0",
+                                "symfony/filesystem": "^4.4|^5.1|^6.0|^7.0",
+                                "symfony/polyfill-php80": "^1.28",
+                                "symfony/process": "^4.4|^5.1|^6.0|^7.0"
+                        },
+                        "require-dev": {
+                                "mikey179/vfsstream": "^1.6.11",
+                                "php-cs-fixer/shim": "^3.60",
+                                "phpstan/phpstan": "^1.11.8",
+                                "phpstan/phpstan-phpunit": "^1.4.0",
+                                "phpstan/phpstan-strict-rules": "^1.6.0",
+                                "symfony/phpunit-bridge": "^6.4.10"
+                        },
+                        "time": "2024-11-20T10:16:01+00:00",
+                        "type": "library",
+                        "extra": {
+                                "branch-alias": {
+                                        "dev-master": "2.0-dev"
+                                }
+                        },
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "YoutubeDl\\": "src/"
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Tomas Norkūnas",
+                                        "email": "norkunas.tom@gmail.com"
+                                }
+                        ],
+                        "description": "youtube-dl / yt-dlp wrapper for php",
+                        "keywords": [
+                                "youtube",
+                                "youtube-dl",
+                                "yt-dlp"
+                        ],
+                        "support": {
+                                "issues": "https://github.com/norkunas/youtube-dl-php/issues",
+                                "source": "https://github.com/norkunas/youtube-dl-php/tree/v2.8.1"
+                        },
+                        "install-path": "../norkunas/youtube-dl-php"
+                },
+                {
+                        "name": "symfony/filesystem",
+                        "version": "v6.0.19",
+                        "version_normalized": "6.0.19.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/symfony/filesystem.git",
+                                "reference": "3d49eec03fda1f0fc19b7349fbbe55ebc1004214"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/symfony/filesystem/zipball/3d49eec03fda1f0fc19b7349fbbe55ebc1004214",
+                                "reference": "3d49eec03fda1f0fc19b7349fbbe55ebc1004214",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "php": ">=8.0.2",
+                                "symfony/polyfill-ctype": "~1.8",
+                                "symfony/polyfill-mbstring": "~1.8"
+                        },
+                        "time": "2023-01-20T17:44:14+00:00",
+                        "type": "library",
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "Symfony\\Component\\Filesystem\\": ""
+                                },
+                                "exclude-from-classmap": [
+                                        "/Tests/"
+                                ]
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Fabien Potencier",
+                                        "email": "fabien@symfony.com"
+                                },
+                                {
+                                        "name": "Symfony Community",
+                                        "homepage": "https://symfony.com/contributors"
+                                }
+                        ],
+                        "description": "Provides basic utilities for the filesystem",
+                        "homepage": "https://symfony.com",
+                        "support": {
+                                "source": "https://github.com/symfony/filesystem/tree/v6.0.19"
+                        },
+                        "funding": [
+                                {
+                                        "url": "https://symfony.com/sponsor",
+                                        "type": "custom"
+                                },
+                                {
+                                        "url": "https://github.com/fabpot",
+                                        "type": "github"
+                                },
+                                {
+                                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                                        "type": "tidelift"
+                                }
+                        ],
+                        "install-path": "../symfony/filesystem"
+                },
+                {
+                        "name": "symfony/polyfill-ctype",
+                        "version": "v1.31.0",
+                        "version_normalized": "1.31.0.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/symfony/polyfill-ctype.git",
+                                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
+                                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "php": ">=7.2"
+                        },
+                        "provide": {
+                                "ext-ctype": "*"
+                        },
+                        "suggest": {
+                                "ext-ctype": "For best performance"
+                        },
+                        "time": "2024-09-09T11:45:10+00:00",
+                        "type": "library",
+                        "extra": {
+                                "thanks": {
+                                        "name": "symfony/polyfill",
+                                        "url": "https://github.com/symfony/polyfill"
+                                }
+                        },
+                        "installation-source": "dist",
+                        "autoload": {
+                                "files": [
+                                        "bootstrap.php"
+                                ],
+                                "psr-4": {
+                                        "Symfony\\Polyfill\\Ctype\\": ""
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Gert de Pagter",
+                                        "email": "BackEndTea@gmail.com"
+                                },
+                                {
+                                        "name": "Symfony Community",
+                                        "homepage": "https://symfony.com/contributors"
+                                }
+                        ],
+                        "description": "Symfony polyfill for ctype functions",
+                        "homepage": "https://symfony.com",
+                        "keywords": [
+                                "compatibility",
+                                "ctype",
+                                "polyfill",
+                                "portable"
+                        ],
+                        "support": {
+                                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+                        },
+                        "funding": [
+                                {
+                                        "url": "https://symfony.com/sponsor",
+                                        "type": "custom"
+                                },
+                                {
+                                        "url": "https://github.com/fabpot",
+                                        "type": "github"
+                                },
+                                {
+                                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                                        "type": "tidelift"
+                                }
+                        ],
+                        "install-path": "../symfony/polyfill-ctype"
+                },
+                {
+                        "name": "symfony/polyfill-mbstring",
+                        "version": "v1.31.0",
+                        "version_normalized": "1.31.0.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "php": ">=7.2"
+                        },
+                        "provide": {
+                                "ext-mbstring": "*"
+                        },
+                        "suggest": {
+                                "ext-mbstring": "For best performance"
+                        },
+                        "time": "2024-09-09T11:45:10+00:00",
+                        "type": "library",
+                        "extra": {
+                                "thanks": {
+                                        "name": "symfony/polyfill",
+                                        "url": "https://github.com/symfony/polyfill"
+                                }
+                        },
+                        "installation-source": "dist",
+                        "autoload": {
+                                "files": [
+                                        "bootstrap.php"
+                                ],
+                                "psr-4": {
+                                        "Symfony\\Polyfill\\Mbstring\\": ""
+                                }
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Nicolas Grekas",
+                                        "email": "p@tchwork.com"
+                                },
+                                {
+                                        "name": "Symfony Community",
+                                        "homepage": "https://symfony.com/contributors"
+                                }
+                        ],
+                        "description": "Symfony polyfill for the Mbstring extension",
+                        "homepage": "https://symfony.com",
+                        "keywords": [
+                                "compatibility",
+                                "mbstring",
+                                "polyfill",
+                                "portable",
+                                "shim"
+                        ],
+                        "support": {
+                                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+                        },
+                        "funding": [
+                                {
+                                        "url": "https://symfony.com/sponsor",
+                                        "type": "custom"
+                                },
+                                {
+                                        "url": "https://github.com/fabpot",
+                                        "type": "github"
+                                },
+                                {
+                                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                                        "type": "tidelift"
+                                }
+                        ],
+                        "install-path": "../symfony/polyfill-mbstring"
+                },
+                {
+                        "name": "symfony/polyfill-php80",
+                        "version": "v1.31.0",
+                        "version_normalized": "1.31.0.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/symfony/polyfill-php80.git",
+                                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "php": ">=7.2"
+                        },
+                        "time": "2024-09-09T11:45:10+00:00",
+                        "type": "library",
+                        "extra": {
+                                "thanks": {
+                                        "name": "symfony/polyfill",
+                                        "url": "https://github.com/symfony/polyfill"
+                                }
+                        },
+                        "installation-source": "dist",
+                        "autoload": {
+                                "files": [
+                                        "bootstrap.php"
+                                ],
+                                "psr-4": {
+                                        "Symfony\\Polyfill\\Php80\\": ""
+                                },
+                                "classmap": [
+                                        "Resources/stubs"
+                                ]
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Ion Bazan",
+                                        "email": "ion.bazan@gmail.com"
+                                },
+                                {
+                                        "name": "Nicolas Grekas",
+                                        "email": "p@tchwork.com"
+                                },
+                                {
+                                        "name": "Symfony Community",
+                                        "homepage": "https://symfony.com/contributors"
+                                }
+                        ],
+                        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                        "homepage": "https://symfony.com",
+                        "keywords": [
+                                "compatibility",
+                                "polyfill",
+                                "portable",
+                                "shim"
+                        ],
+                        "support": {
+                                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+                        },
+                        "funding": [
+                                {
+                                        "url": "https://symfony.com/sponsor",
+                                        "type": "custom"
+                                },
+                                {
+                                        "url": "https://github.com/fabpot",
+                                        "type": "github"
+                                },
+                                {
+                                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                                        "type": "tidelift"
+                                }
+                        ],
+                        "install-path": "../symfony/polyfill-php80"
+                },
+                {
+                        "name": "symfony/process",
+                        "version": "v6.0.19",
+                        "version_normalized": "6.0.19.0",
+                        "source": {
+                                "type": "git",
+                                "url": "https://github.com/symfony/process.git",
+                                "reference": "2114fd60f26a296cc403a7939ab91478475a33d4"
+                        },
+                        "dist": {
+                                "type": "zip",
+                                "url": "https://api.github.com/repos/symfony/process/zipball/2114fd60f26a296cc403a7939ab91478475a33d4",
+                                "reference": "2114fd60f26a296cc403a7939ab91478475a33d4",
+                                "shasum": ""
+                        },
+                        "require": {
+                                "php": ">=8.0.2"
+                        },
+                        "time": "2023-01-01T08:36:10+00:00",
+                        "type": "library",
+                        "installation-source": "dist",
+                        "autoload": {
+                                "psr-4": {
+                                        "Symfony\\Component\\Process\\": ""
+                                },
+                                "exclude-from-classmap": [
+                                        "/Tests/"
+                                ]
+                        },
+                        "notification-url": "https://packagist.org/downloads/",
+                        "license": [
+                                "MIT"
+                        ],
+                        "authors": [
+                                {
+                                        "name": "Fabien Potencier",
+                                        "email": "fabien@symfony.com"
+                                },
+                                {
+                                        "name": "Symfony Community",
+                                        "homepage": "https://symfony.com/contributors"
+                                }
+                        ],
+                        "description": "Executes commands in sub-processes",
+                        "homepage": "https://symfony.com",
+                        "support": {
+                                "source": "https://github.com/symfony/process/tree/v6.0.19"
+                        },
+                        "funding": [
+                                {
+                                        "url": "https://symfony.com/sponsor",
+                                        "type": "custom"
+                                },
+                                {
+                                        "url": "https://github.com/fabpot",
+                                        "type": "github"
+                                },
+                                {
+                                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                                        "type": "tidelift"
+                                }
+                        ],
+                        "install-path": "../symfony/process"
+                }
+        ],
+        "dev": true,
+        "dev-package-names": []
+}
