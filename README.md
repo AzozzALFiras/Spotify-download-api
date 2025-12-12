@@ -45,5 +45,5 @@ Insert gif or link to demo
 
 ## Support
 
-For support, Whatsapp +14502740849
+For suppor
 
